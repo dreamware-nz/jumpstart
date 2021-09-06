@@ -1,7 +1,5 @@
 ### 2021-05-13
 
-* Upgrade to Bootstrap 5
-* Remove data-confirm-modal, not yet bootstrap 5 compatible
 * Drop jQuery
 * Include devise views directly
 
@@ -25,7 +23,7 @@
 
 * Adds support for Rails 6.0
 * Move all Javascript to Webpacker for Rails 5.2 and 6.0
-  * Use Bootstrap, data-confirm-modal, and local-time from NPM packages
+  * Use data-confirm-modal, and local-time from NPM packages
   * ProvidePlugin sets jQuery, $, and Rails variables for webpacker
 * Use https://github.com/excid3/administrate fork of Administrate
   * Adds fix for zeitwerk autoloader in Rails 6
